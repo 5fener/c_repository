@@ -1,3 +1,4 @@
+//插入排序：从第一个元素开始依次扫描每个元素进行插入排序
 #include<stdio.h>
 #define LEN 255
 void insertion_sort(int[], int);
