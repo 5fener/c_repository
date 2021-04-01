@@ -1,4 +1,4 @@
-//冒泡排序：比较相邻元素 时间复杂度O（n^2)
+//冒泡排序：依次比较相邻元素 
 
 #include<stdio.h>  //包含标准输入输出头文件
 #define LEN 255     //宏定义数组边界
@@ -17,7 +17,7 @@ int main(void)  //不带任何参数的主函数并且返回一个整数
     bubble_sort(arr, len);  //函数调用
     for (int i = 0; i < len; i++)   //for循环，声明整形变量i并赋值为0，在i<len的情况下进入循环体，一次循环后执行i++（循环开始前先初始化表达式并判断）
         printf("%d ", arr[i]);   //调用printf函数在屏幕上打印数组arr中第i+1个值 
-    return 0;   //返回一个数 用来结束main（）函数
+    return 0;   //调用printf函数在屏幕上打印数组arr中第i+1个值 
 }
 void bubble_sort(int arr[], int len)    //函数定义
 {
